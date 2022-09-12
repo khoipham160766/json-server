@@ -1,0 +1,27 @@
+** Chạy thử json-server
+B1:
+- Cài đặt npm i -g json-server.
+B2:
+- Tạo 1 file db.json.
+- Thêm vào data để tiến hành chạy thử.
+B3:
+- Chạy thử (lệnh: json-server db.json).
+
+** Setup json-server
+- Cài npm init.
+- Cài git init.
+- Cài npm i json-server.
+- Cài npm i --save-dev nodemon.
+- Tạo file main.js. Vào https://github.com/typicode/json-server#custom-routes-example copy nội dung vào main.js.
+- Thêm vào 2 scripts trong file package.json:
+    "dev": "nodemon main.js" // tự động restart server nếu có thay đổi trên file
+    "start": "node main.js"
+- Chạy thử server npm run dev.
+
+** Gọi API trực tiếp trong vscode
+- Cài extension: REST Client // test API
+- Xem trong file test.http
+
+** Random data
+- Cài npm i --save-dev faker@5.4.0
+- Thêm scripts "generate-data": "node generate-data.js"

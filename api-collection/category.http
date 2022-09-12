@@ -1,0 +1,34 @@
+# Categories
+
+# @name getAllCategories
+GET http://localhost:3000/api/products?_page=1&_limit=5
+
+###
+ 
+# @name filter
+GET http://localhost:3000/api/products
+
+###
+
+# @name addNewCategory
+POST http://localhost:3000/api/categories
+Content-Type: application/json
+
+{
+    "name": "Laptop"
+}
+
+###
+
+# @name updateCategory
+PATCH  http://localhost:3000/api/categories/cScST3u
+Content-Type: application/json
+
+{
+    "name": "New Laptop"
+}
+
+###
+
+# @name removeCategory
+DELETE  http://localhost:3000/api/categories/cScST3u
