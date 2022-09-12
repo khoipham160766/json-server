@@ -4,4 +4,4 @@
 ## Tham khảo
 - Hướng dẫn xây dựng json server của easy frontend.
 ## Link API
-- 
+- https://json-server-fashion-shops.herokuapp.com/api/
